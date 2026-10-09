@@ -121,7 +121,10 @@ On macOS or Linux, activate with `source .venv/bin/activate` and copy the env fi
 
 Set `XAI_API_KEY` in `.env`. That file is gitignored. `pytest` stubs the model, so it needs no key and no network. The dashboard is at http://127.0.0.1:8765. Use `python serve_dashboard.py --host 0.0.0.0` to open it on the local network.
 
+
 <img width="3812" height="1908" alt="image" src="https://github.com/user-attachments/assets/03536399-b045-4b9a-93f9-eafc03bf28b9" />
+
+
 
 
 | Variable | Default | Purpose |
