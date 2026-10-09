@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acme invoice control</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <strong>Acme</strong>
+        <span>Invoice control</span>
+      </div>
+      <nav class="nav" id="nav"></nav>
+    </aside>
+    <section class="main">
+      <header class="topbar">
+        <h1 id="page-title">Command center</h1>
+        <div class="spacer"></div>
+        <input class="search" id="search" type="search" placeholder="Invoice or vendor" aria-label="Search invoices">
+        <span class="asof">As of 4 Oct 2026</span>
+        <div class="roles" role="group" aria-label="Role">
+          <button type="button" id="role-vp" class="active">VP</button>
+          <button type="button" id="role-cfo">CFO</button>
+        </div>
+      </header>
+      <div class="content" id="content"></div>
+    </section>
+  </div>
+  <div id="drawer-root"></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

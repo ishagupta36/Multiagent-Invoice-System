@@ -1,0 +1,6 @@
+langgraph>=0.2.50
+openai>=1.50.0
+pydantic>=2.7
+python-dotenv>=1.0.1
+pdfplumber>=0.11.0
+pytest>=8.0.0
