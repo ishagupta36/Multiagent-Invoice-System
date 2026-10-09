@@ -1,6 +1,6 @@
 # Acme Invoice Control
 
-Acme, a PE-backed manufacturer, loses about $2 million a year because invoice handling is manual. Documents arrive in messy formats. Staff retype them, check a legacy inventory file, chase VP approval through email, and then pay. About 30% of that work is wrong, and a typical invoice takes five days.
+Acme, a PE-backed manufacturer, loses about $2 million a year because invoice handling is manual. Documents arrive in messy formats. Staff retypes them, checks a legacy inventory file, chases VP approval through email, and then pays. About 30% of that work is wrong, and a typical invoice takes five days.
 
 This system replaces that path with a local multi-agent control. LangGraph routes each invoice. Grok reads the document and answers the commercial questions. Python checks the master data and makes the payment decision. A person still owns the cases that need judgment, and those cases are meant to land in that person's inbox.
 
